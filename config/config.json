@@ -14,8 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
-    "dialect": "postgres",
-    "protocol": "postgres"
+    "username": "gilbranbackend",
+    "password": "gilbranbackend",
+    "database": "housy",
+    "host": "172.16.2.103",
+    "dialect": "mysql"
   }
 }

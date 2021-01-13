@@ -1,7 +1,7 @@
-version: '3.8'
+version: '3'
 services:
   backend:
     container_name: backendHousy
-    image: gilbran/backend:latest
+    image: gilbran/backendfinal:latest
     ports:
       - 5000:5000
